@@ -9,7 +9,7 @@
 Для каждого из этих брейкпоинтов есть макет. Это макет одной и той же страницы, которая должна адаптироваться под разную ширину экрана.
 
 Не забудь включить отображение сетки:
-![Отображение сетки](https://github.com/Evskij/Evskij.github.io/tree/master/BootstrapStepik/img/layout_grid.png)
+![Отображение сетки](https://raw.githubusercontent.com/Evskij/Evskij.github.io/master/BootstrapStepik/img/layout_grid.png)
 Это поможет тебе распределить контент по нужным колонкам.
 
 [Макет ищи в Фигме.](https://www.figma.com/file/nDXdlmr1kCVnWEcnPWtfLg/%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%91%D1%83%D1%82%D1%81%D1%82%D1%80%D0%B0%D0%BF?node-id=1%3A2)
