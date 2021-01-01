@@ -1,0 +1,232 @@
+* {
+font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.header {
+  background-color: #007765;
+  position:fixed;
+  width: 100%;
+  z-index:1000;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* font and color */
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+
+  height: 84px;
+
+}
+
+.logo {
+  height: 45px;
+}
+
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menu-main li {
+  display: inline-flex;
+}
+.menu-main a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-main a:hover {
+	text-decoration: underline;
+}
+
+
+.empty {
+height: 84px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 160px;
+  padding-bottom: 160px;
+
+  background-image: url(./image/pipernet.png);
+  background-position: center center;
+  background-size: cover;
+
+  /* font and color */
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 84px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.problem {
+    background: #EEEEEE;
+	padding-top: 48px;
+	padding-bottom: 92px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  padding-left: 55px;
+  padding-right: 55px;
+
+  /* background */
+  background-image: url(./image/Hero.png);
+  background-position: center center;
+  background-size: cover;
+
+}
+
+.hero__message {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.PPC {
+	padding-top: 48px;
+	padding-bottom: 92px;
+}
+
+.PPC_logo {
+  float: left;
+  padding-right: 48px;
+}
+
+.team {
+    width: 100%;
+    margin: auto;
+    background: #EEEEEE;
+	
+	padding-top: 48px;
+	padding-bottom: 92px;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.member {
+    display: table;
+    width: 30%;
+    text-align: center;
+    margin: 15px;
+}
+
+.member_img {
+    padding-bottom: 12px;
+}
+
+.team_name {
+    padding: 0px;
+    margin: 0px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+/* identical to box height */
+
+    color: #007765;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.team_position {
+    padding: 0px;
+    margin: 0px;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.rectanle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 48px;
+    padding-bottom: 64px;
+    
+    background: #333333;
+}
+
+.rectanle_text {
+    max-width: 540px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+#problem, #PPC, #team {
+	position: absolute;
+	margin-top: -82px;
+}
+
