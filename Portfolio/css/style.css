@@ -1,0 +1,110 @@
+html{
+    background-image: url(../img/body.jpg);
+    background-size: cover;
+    color: white;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Шапка сайта */
+header {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+    height: 30em;
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+}
+.navigation a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+.navigation a:hover{
+    background: darkslategray;
+}
+.header-info{
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.header-info .container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.header-text{
+    align-self: flex-end;
+}
+.header-text p {
+    font-size: 1.5em;
+}
+
+/* body */
+
+
+#my-img {
+    border-radius: 100%;
+    border: solid 0.3em;
+    border-color: darkslategray;
+    box-shadow: 0 0 7px #666;
+    margin: 0.5em;
+    float: right;
+}
+.portfolio {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.card{
+    width: 45%;
+}
+.card a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.card img {
+	width: 100%;
+	transition: 1s;
+}
+
+.card img:hover {
+	transform: scale(1.05);
+}
+
+
+footer{
+    /* background-color: deepskyblue; */
+    width: 100%;
+    color: white;
+    height: 3em;
+
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#contacts a{
+    text-decoration: none;
+}
+svg{
+    padding: 0.5em;
+    fill: white;
+    width: 5em;
+    height: 5em;
+}
